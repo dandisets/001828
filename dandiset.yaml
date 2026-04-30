@@ -3,7 +3,16 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001965
+  name: substantia nigra pars compacta
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002435
+  name: striatum
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/DOID_14330
+  name: Parkinson's disease
+  schemaKey: Disorder
 access:
 - embargoedUntil: '2028-04-29'
   schemaKey: AccessRequirements
@@ -12,22 +21,199 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson's disease
-  bradykinesia and procedural motor learning impairment (2026). (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001828/draft
-contributor: []
+citation: Mantas, Ioannis; Contestabile, Alessandro; Skara, Vasiliki; Loiseau, Camille;
+  Santos, Ines A.; Cramb, Kaitlyn M. L.; Filograna, Roberta; Wade-Martins, Richard;
+  Magill, Peter J.; Meletis, Konstantinos (2026) Anxa1+ dopamine neuron vulnerability
+  defines prodromal Parkinson's disease bradykinesia and procedural motor learning
+  impairment (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001828/draft
+contributor:
+- affiliation:
+  - identifier: https://ror.org/056d84691
+    name: Karolinska Institutet
+    schemaKey: Affiliation
+  identifier: 0000-0001-6288-5439
+  includeInCitation: true
+  name: Mantas, Ioannis
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/056d84691
+    name: Karolinska Institutet
+    schemaKey: Affiliation
+  email: alessandro.contestabile@ki.se
+  identifier: 0000-0001-6528-1403
+  includeInCitation: true
+  name: Contestabile, Alessandro
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/056d84691
+    name: Karolinska Institutet
+    schemaKey: Affiliation
+  identifier: 0000-0002-0017-6116
+  includeInCitation: true
+  name: Skara, Vasiliki
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/052gg0110
+    name: University of Oxford
+    schemaKey: Affiliation
+  identifier: 0000-0003-3108-5193
+  includeInCitation: true
+  name: Loiseau, Camille
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/056d84691
+    name: Karolinska Institutet
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Santos, Ines A.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/052gg0110
+    name: University of Oxford
+    schemaKey: Affiliation
+  identifier: 0000-0003-2822-7752
+  includeInCitation: true
+  name: Cramb, Kaitlyn M. L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/056d84691
+    name: Karolinska Institutet
+    schemaKey: Affiliation
+  identifier: 0000-0002-6581-9426
+  includeInCitation: true
+  name: Filograna, Roberta
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/052gg0110
+    name: University of Oxford
+    schemaKey: Affiliation
+  identifier: 0000-0001-6691-580X
+  includeInCitation: true
+  name: Wade-Martins, Richard
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/052gg0110
+    name: University of Oxford
+    schemaKey: Affiliation
+  identifier: 0000-0001-7141-7071
+  includeInCitation: true
+  name: Magill, Peter J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/056d84691
+    name: Karolinska Institutet
+    schemaKey: Affiliation
+  identifier: 0000-0001-5665-4781
+  includeInCitation: true
+  name: Meletis, Konstantinos
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: https://ror.org/056d84691
+  name: Karolinska Institutet
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ASAP-020370
+  identifier: https://ror.org/03arq3225
+  name: Michael J. Fox Foundation for Parkinson's Research
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 2018-00608
+  identifier: https://ror.org/03zttf063
+  name: Swedish Research Council
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 815200-8317
+  identifier: https://ror.org/0433fd238
+  name: Swedish Society for Medical Research
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: P500PB_214355
+  identifier: https://ror.org/00yjd3n13
+  name: Swiss National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 2022-01477
+  identifier: https://ror.org/03zttf063
+  name: Swedish Research Council (R.F.)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-04-30T17:52:36.500499+00:00'
-description: TBD
-ethicsApproval: []
+description: Progressive degeneration of dopamine neurons (DANs) defines Parkinson’s
+  disease (PD). However, the identity and function of the most vulnerable DAN populations
+  in prodromal PD remain undefined. Here, we identify substantia nigra DANs with Annexin
+  A1 (Anxa1) expression as selectively vulnerable across multiple prodromal PD models
+  and in PD patient samples. We found that Anxa1+ DANs have a unique functional profile,
+  as they do not signal reward or reinforce actions, and they are not necessary for
+  motivated behavior. Instead, activity of Anxa1+ DAN axons correlates with vigorous
+  movements during self-paced exploration, yet their silencing only disrupts a subset
+  of action sequences that mirror a bradykinesia profile. Importantly, Anxa1+ DANs
+  are necessary for procedural learning in a maze task and for improving dexterous
+  motor actions. These findings establish the early vulnerability of Anxa1+ DANs in
+  PD, whose function can explain prodromal PD bradykinesia and impairments in procedural
+  motor learning.
+ethicsApproval:
+- identifier: N166/15
+  schemaKey: EthicsApproval
+- identifier: 15440-2020
+  schemaKey: EthicsApproval
+- identifier: 21392-2021
+  schemaKey: EthicsApproval
 id: DANDI:001828/draft
 identifier: DANDI:001828
+keywords:
+- dopamine neurons
+- Anxa1
+- optogenetics
+- fiber photometry
+- motor learning
+- procedural memory
+- bradykinesia
+- DeepLabCut
+- VAME
+- dLight1.3b
+- GCaMP8m
+- mouse
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001828/versions/draft/assets/
 name: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson's disease bradykinesia
   and procedural motor learning impairment
-relatedResource: []
+relatedResource:
+- identifier: doi:10.1101/2024.12.22.629963
+  name: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson’s disease
+    bradykinesia and procedural motor learning impairment
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2024.12.22.629963
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
