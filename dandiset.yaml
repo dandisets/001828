@@ -30,9 +30,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 8011168082
-  numberOfFiles: 17
-  numberOfSubjects: 4
+  numberOfBytes: 8847063406
+  numberOfFiles: 21
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -42,6 +42,7 @@ assetsSummary:
   - ProcessingModule
   - SpatialSeries
   - Position
+  - BehavioralTimeSeries
 citation: Mantas, Ioannis; Contestabile, Alessandro; Skara, Vasiliki; Loiseau, Camille;
   Santos, Ines A.; Cramb, Kaitlyn M. L.; Filograna, Roberta; Wade-Martins, Richard;
   Magill, Peter J.; Meletis, Konstantinos (2026) Anxa1+ dopamine neuron vulnerability
@@ -219,7 +220,6 @@ keywords:
 - VAME
 - dLight1.3b
 - GCaMP8m
-- mouse
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
