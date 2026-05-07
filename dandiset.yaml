@@ -30,8 +30,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 9669221221
-  numberOfFiles: 23
+  numberOfBytes: 35115641960
+  numberOfFiles: 29
   numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
@@ -40,8 +40,6 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-  - SpatialSeries
-  - Position
   - BehavioralTimeSeries
 citation: Mantas, Ioannis; Contestabile, Alessandro; Skara, Vasiliki; Loiseau, Camille;
   Santos, Ines A.; Cramb, Kaitlyn M. L.; Filograna, Roberta; Wade-Martins, Richard;
