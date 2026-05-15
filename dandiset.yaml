@@ -26,12 +26,12 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 427203797497
-  numberOfFiles: 399
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 447017364526
+  numberOfFiles: 402
   numberOfSubjects: 56
   schemaKey: AssetsSummary
   species:
