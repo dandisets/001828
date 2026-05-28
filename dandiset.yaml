@@ -13,6 +13,9 @@ about:
 - identifier: http://purl.obolibrary.org/obo/DOID_14330
   name: Parkinson's disease
   schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/CL_4042025
+  name: substantia nigra dopaminergic neuron
+  schemaKey: Anatomy
 access:
 - embargoedUntil: '2028-04-29'
   schemaKey: AccessRequirements
