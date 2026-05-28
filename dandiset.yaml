@@ -183,6 +183,15 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  identifier: 0000-0001-6615-1360
+  name: Weigl, Szonja
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2026-04-30T17:52:36.500499+00:00'
 description: Progressive degeneration of dopamine neurons (DANs) defines Parkinson’s
   disease (PD). However, the identity and function of the most vulnerable DAN populations
