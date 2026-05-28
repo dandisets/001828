@@ -242,6 +242,13 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://doi.org/10.1101/2024.12.22.629963
+- identifier: https://github.com/catalystneuro/meletis-lab-to-nwb
+  name: meletis-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/meletis-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
