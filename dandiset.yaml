@@ -29,13 +29,13 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 267052214402
-  numberOfFiles: 475
-  numberOfSubjects: 68
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 632379781134
+  numberOfFiles: 1014
+  numberOfSubjects: 179
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -45,8 +45,8 @@ assetsSummary:
   - ProcessingModule
   - BehavioralTimeSeries
 citation: Mantas, Ioannis; Contestabile, Alessandro; Skara, Vasiliki; Loiseau, Camille;
-  Santos, Ines A.; Cramb, Kaitlyn M. L.; Filograna, Roberta; Wade-Martins, Richard;
-  Magill, Peter J.; Meletis, Konstantinos (2026) Anxa1+ dopamine neuron vulnerability
+  Rubino, Eleonora; Santos, Ines A.; Cramb, Kaitlyn M. L.; Filograna, Roberta; Wade-Martins,
+  Richard; Magill, Peter J.; Meletis, Konstantinos (2026) Anxa1+ dopamine neuron vulnerability
   defines prodromal Parkinson's disease bradykinesia and procedural motor learning
   impairment (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001828/draft
 contributor:
@@ -89,6 +89,16 @@ contributor:
   identifier: 0000-0003-3108-5193
   includeInCitation: true
   name: Loiseau, Camille
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/056d84691
+    name: Karolinska Institutet
+    schemaKey: Affiliation
+  identifier: 0000-0002-5248-505X
+  includeInCitation: true
+  name: Rubino, Eleonora
   roleName:
   - dcite:Author
   schemaKey: Person
