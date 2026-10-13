@@ -47,7 +47,7 @@ assetsSummary:
 citation: Mantas, Ioannis; Contestabile, Alessandro; Skara, Vasiliki; Loiseau, Camille;
   Rubino, Eleonora; Santos, Ines A.; Cramb, Kaitlyn M. L.; Filograna, Roberta; Wade-Martins,
   Richard; Magill, Peter J.; Meletis, Konstantinos (2026) Anxa1+ dopamine neuron vulnerability
-  defines prodromal Parkinson's disease bradykinesia and procedural motor learning
+  defines prodromal Parkinson's disease-like bradykinesia and procedural motor learning
   impairment (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001828/draft
 contributor:
 - affiliation:
@@ -209,10 +209,10 @@ dateCreated: '2026-04-30T17:52:36.500499+00:00'
 description: Progressive degeneration of dopamine neurons (DANs) defines Parkinson’s
   disease (PD). However, the identity and function of the most vulnerable DAN populations
   in prodromal PD remain undefined. Here, we identify substantia nigra DANs with Annexin
-  A1 (Anxa1) expression as selectively vulnerable across multiple prodromal PD models
-  and in PD patient samples. We found that Anxa1+ DANs have a unique functional profile,
-  as they do not signal reward or reinforce actions, and they are not necessary for
-  motivated behavior. Instead, activity of Anxa1+ DAN axons correlates with vigorous
+  A1 (Anxa1) expression as selectively vulnerable across multiple prodromal PD mouse
+  models and in PD patient samples. We found that Anxa1+ DANs have a unique functional
+  profile, as they do not signal reward or reinforce actions, and they are not necessary
+  for motivated behavior. Instead, activity of Anxa1+ DAN axons correlates with vigorous
   movements during self-paced exploration, yet their silencing only disrupts a subset
   of action sequences that mirror a bradykinesia profile. Importantly, Anxa1+ DANs
   are necessary for procedural learning in a maze task and for improving dexterous
@@ -244,8 +244,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001828/versions/draft/assets/
-name: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson's disease bradykinesia
-  and procedural motor learning impairment
+name: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson's disease-like
+  bradykinesia and procedural motor learning impairment
 relatedResource:
 - identifier: doi:10.1101/2024.12.22.629963
   name: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson’s disease
