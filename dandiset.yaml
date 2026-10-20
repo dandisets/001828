@@ -48,7 +48,7 @@ citation: Mantas, Ioannis; Contestabile, Alessandro; Skara, Vasiliki; Loiseau, C
   Rubino, Eleonora; Santos, Ines A.; Cramb, Kaitlyn M. L.; Filograna, Roberta; Wade-Martins,
   Richard; Magill, Peter J.; Meletis, Konstantinos (2026) Anxa1+ dopamine neuron vulnerability
   defines prodromal Parkinson's disease-like bradykinesia and procedural motor learning
-  impairment (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001828/draft
+  impairment (Version 0.261020.1002) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001828/0.261020.1002
 contributor:
 - affiliation:
   - identifier: https://ror.org/056d84691
@@ -206,6 +206,7 @@ contributor:
   - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2026-04-30T17:52:36.500499+00:00'
+datePublished: '2026-10-20T10:02:07.188007+00:00'
 description: Progressive degeneration of dopamine neurons (DANs) defines Parkinson’s
   disease (PD). However, the identity and function of the most vulnerable DAN populations
   in prodromal PD remain undefined. Here, we identify substantia nigra DANs with Annexin
@@ -219,6 +220,7 @@ description: Progressive degeneration of dopamine neurons (DANs) defines Parkins
   motor actions. These findings establish the early vulnerability of Anxa1+ DANs in
   PD, whose function can explain prodromal PD bradykinesia and impairments in procedural
   motor learning.
+doi: 10.48324/dandi.001828/0.261020.1002
 ethicsApproval:
 - identifier: N166/15
   schemaKey: EthicsApproval
@@ -226,7 +228,7 @@ ethicsApproval:
   schemaKey: EthicsApproval
 - identifier: 21392-2021
   schemaKey: EthicsApproval
-id: DANDI:001828/draft
+id: DANDI:001828/0.261020.1002
 identifier: DANDI:001828
 keywords:
 - dopamine neurons
@@ -243,9 +245,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001828/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001828/0.261020.1002/assets.yaml
 name: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson's disease-like
   bradykinesia and procedural motor learning impairment
+publishedBy:
+  endDate: '2026-10-20T10:02:07.188007+00:00'
+  id: urn:uuid:d8caf888-9169-4b6f-bdc0-de88800dfe4f
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-20T10:02:07.188007+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:6079e352-bd41-4074-a9bd-7d0019c17bef
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1101/2024.12.22.629963
   name: Anxa1+ dopamine neuron vulnerability defines prodromal Parkinson’s disease
@@ -265,6 +279,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001828/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001828/0.261020.1002
+version: 0.261020.1002
 wasGeneratedBy: []
